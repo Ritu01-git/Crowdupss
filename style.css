@@ -1,0 +1,99 @@
+body{
+    background-image: url('https://png.pngtree.com/background/20210712/original/pngtree-light-color-hand-drawn-school-supplies-book-education-background-picture-image_1177989.jpg');
+    /* height: 100vh; */
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  }
+
+.nav-link:hover{
+    background-color: burlywood;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+.hero {
+    /* background-image: url('hero-image.jpg'); */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+    margin: 0 auto;
+    h1{
+        font-size: 3.5rem;
+    }
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+p {
+    font-size: 1.25rem;
+    margin-top: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #FF5733;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 20px;
+    height: 10vh;
+    width: 30vw;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .cta-button {
+        font-size: 0.9rem;
+    }
+}
+
+.typewriter  {
+    color: black;
+    font-family: monospace;
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
